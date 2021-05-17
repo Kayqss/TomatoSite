@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Balsamiq Sans", cursive;
+  background-color: #101010;
+  color: snow;
+}
+
+main {
+  display: flex;
+  flex-flow: row-reverse;
+  height: max-content;
+  justify-content: center;
+}
+
+.img-smartphone-container {
+  margin-right: 10%;
+}
+
+.written-content-container {
+  text-align: center;
+  padding: 5%;
+  padding-right: 3%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  height: 400px;
+}
+
+.header-content,
+.discord-disclaimer {
+  margin-bottom: 5%;
+  font-size: 1.3em;
+}
+
+.first-layer-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3%;
+}
+
+.download-button {
+  align-self: center;
+  width: 201.55px;
+}
+
+.download-button button {
+  width: 201.55px;
+  height: 55px;
+  border-radius: 7px;
+}
+
+.google-play-logo {
+  height: 78px;
+}
+
+.fa-discord {
+  font-size: 40px;
+}
+
+footer {
+  display: flex;
+  background-color: #101010;
+  padding: 18px;
+  color: white;
+}
+
+footer h5 {
+  margin: auto;
+  text-align: right;
+}
